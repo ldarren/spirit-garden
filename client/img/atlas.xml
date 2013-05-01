@@ -1,0 +1,17 @@
+<atlas numImages="13">
+  <texture file="images0.png" trans="true">
+    <image name="base" x="114" y="300" width="97" height="150" xOffset="39" yOffset="1" transWidth="500" transHeight="400"/>
+    <image name="blink02" x="308" y="150" width="96" height="149" xOffset="39" yOffset="1" transWidth="500" transHeight="400"/>
+    <image name="earflap02" x="0" y="0" width="114" height="150" xOffset="32" yOffset="1" transWidth="500" transHeight="400"/>
+    <image name="earflap04" x="0" y="300" width="100" height="150" xOffset="36" yOffset="1" transWidth="500" transHeight="400"/>
+    <image name="earflap06" x="306" y="299" width="95" height="150" xOffset="40" yOffset="1" transWidth="500" transHeight="400"/>
+    <image name="earflap08" x="211" y="299" width="95" height="151" xOffset="41" transWidth="500" transHeight="400"/>
+    <image name="eye" x="100" y="300" width="4" height="4"/>
+    <image name="trunk_swing01" x="114" y="150" width="97" height="150" xOffset="39" yOffset="1" transWidth="500" transHeight="400"/>
+    <image name="trunk_swing03" x="309" y="0" width="97" height="150" xOffset="38" yOffset="1" transWidth="500" transHeight="400"/>
+    <image name="trunk_swing05" x="0" y="150" width="111" height="150" xOffset="38" yOffset="1" transWidth="500" transHeight="400"/>
+    <image name="trunk_swing13" x="212" y="0" width="97" height="150" xOffset="39" yOffset="1" transWidth="500" transHeight="400"/>
+    <image name="trunk_swing15" x="211" y="150" width="97" height="149" xOffset="39" yOffset="1" transWidth="500" transHeight="400"/>
+    <image name="trunk_swing17" x="114" y="0" width="98" height="150" xOffset="39" yOffset="1" transWidth="500" transHeight="400"/>
+  </texture>
+</atlas>

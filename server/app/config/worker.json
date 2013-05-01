@@ -1,0 +1,44 @@
+{
+    "app":{
+        "name": "SpiritualGarden",
+        "env": "dev",
+        "elements":["models","services","actions","spec"]
+    },
+    "lib":{
+        "webServer":{
+            "mod":"web",
+            "port":4888,
+            "updateRate": 60000
+        },
+        "redisUsers":{
+            "mod":"redis",
+            "host":"localhost",
+            "port":6379,
+            "db":1,
+            "options":{}
+        },
+        "redisMapData":{
+            "mod":"redis",
+            "host":"localhost",
+            "port":6379,
+            "db":2,
+            "options":{}
+        },
+        "sqlUsers":{
+            "mod":"mysql",
+            "host":"localhost",
+            "port":3306,
+            "username":"sgUserServers",
+            "password":"sg",
+            "db":"sgUsers"
+        },
+        "sqlGame":{
+            "mod":"mysql",
+            "host":"localhost",
+            "port":3306,
+            "username":"sgUserServers",
+            "password":"sg",
+            "db":"sgGame"
+        }
+    }
+}

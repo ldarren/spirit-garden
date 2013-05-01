@@ -1,0 +1,16 @@
+npm-debug.log
+*.swp
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*~
+
+lib-cov
+build/
+pids
+logs
+results

@@ -1,0 +1,23 @@
+{
+    "tomato":{
+        "period":1
+    },
+    "potato":{
+        "period":2
+    },
+    "carrot":{
+        "period":3
+    },
+    "artichoke":{
+        "period":4
+    },
+    "pepper":{
+        "period":5
+    },
+    "eggplant":{
+        "period":6
+    },
+    "corn":{
+        "period":7
+    }
+}

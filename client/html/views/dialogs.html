@@ -1,0 +1,43 @@
+<div class="modal" id="coming">
+<div>
+    <h2>Comming Soon...</h2>
+    <p>I'm working hard, visit me in May</p>
+    <a class="closeBtn" href="#close">X</a>
+</div>
+</div>
+
+<div class="modal" id="register">
+<div>
+    <h2>Welcome Gardener!</h2>
+    <p>Please enter your name here</p>
+    <form action=readName method=POST>
+    <div><label for=uuid>Name</label><input type="text" id=uuid name=uuid /></div>
+    <input type=submit value="Register" />
+    </form>
+    <a class="closeBtn" href="#close">X</a>
+</div>
+</div>
+
+<script name=dialogRegister>
+
+var
+me = this,
+onRegister = function(evt){
+    evt.preventDefault();
+    evt.stopPropagation();
+
+    var obj = pico('form[action="readName"]').toObj();
+    if (!obj.uuid) return alert('Not enough parameters');
+
+    me.signal('dialogRegister.submit',[obj]);
+    pico.changeUIState('close');
+
+    return false;
+},
+onLoad = function(evt){
+    var form = document.querySelector('form[action="readName"]');
+    form.addEventListener('submit', onRegister, false);
+};
+
+this.slot('load', onLoad);
+</script>
